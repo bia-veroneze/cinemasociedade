@@ -1,0 +1,41 @@
+* {
+    font-family: 'Catalish Huntera', cursive;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    background-image: url(../IMAGENS/bancospretos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 > a{
+    text-align: center;
+    color: rgb(237, 55, 55);
+    text-shadow: 5px 5px 15px rgb(255, 255, 255);
+    font-size: 130px;
+    text-decoration: none;
+    transition: .5s all;
+    transition-property: color top;
+    top: 0;
+    position: relative;
+}
+
+h1 > a:hover {
+    transition: .3s;
+    top: 20px;
+    color:red;
+}

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "Catalish Huntera";
+    src: url('./catalish_huntera/Catalish\ Huntera.ttf');
+}
+
+@font-face{
+    font-family: "quicksand";
+    src: url(./quicksand/Quicksand_Book.otf);
+}
